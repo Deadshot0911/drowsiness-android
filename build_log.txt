@@ -1,0 +1,135 @@
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+> Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:packageDebugResources UP-TO-DATE
+> Task :app:parseDebugLocalResources UP-TO-DATE
+> Task :app:dataBindingGenBaseClassesDebug
+> Task :app:mapDebugSourceSetPaths UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :app:checkDebugAarMetadata FAILED
+> Task :app:extractDeepLinksDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:checkDebugAarMetadata'.
+> A failure occurred while executing com.android.build.gradle.internal.tasks.CheckAarMetadataWorkAction
+   > 7 issues were found when checking AAR metadata:
+     
+       1.  Dependency 'androidx.camera:camera-video:1.3.1' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       2.  Dependency 'androidx.camera:camera-lifecycle:1.3.1' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       3.  Dependency 'androidx.camera:camera-camera2:1.3.1' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       4.  Dependency 'androidx.camera:camera-core:1.3.1' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       5.  Dependency 'androidx.camera:camera-view:1.3.1' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       6.  Dependency 'androidx.core:core:1.12.0' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+     
+       7.  Dependency 'androidx.core:core-ktx:1.12.0' requires libraries and applications that
+           depend on it to compile against version 34 or later of the
+           Android APIs.
+     
+           :app is currently compiled against android-33.
+     
+           Recommended action: Update this project to use a newer compileSdk
+           of at least 34, for example 34.
+     
+           Note that updating a library or application's compileSdk (which
+           allows newer APIs to be used) can be done separately from updating
+           targetSdk (which opts the app in to new runtime behavior) and
+           minSdk (which determines which devices the app can be installed
+           on).
+
+* Try:
+> Run with --stacktrace option to get the stack trace.
+> Run with --info or --debug option to get more log output.
+> Run with --scan to get full insights.
+> Get more help at https://help.gradle.org.
+
+BUILD FAILED in 1s
+10 actionable tasks: 3 executed, 7 up-to-date

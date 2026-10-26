@@ -1,0 +1,8 @@
+.gradle/
+build/
+app/build/
+gradle-8.2/
+gradle-8.2-bin.zip
+.idea/
+*.iml
+local.properties
